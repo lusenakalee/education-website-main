@@ -24,7 +24,7 @@ const Home = () => {
   };
   return (
     <div className="section space-y-16 pt-44" id="home">
-      <div className="md:flex items-center justify-center">
+      <div className="grid grid-cols-1 md:grid-cols-2  lg:grid-cols-2 items-center justify-center ">
         <div>
           <div className="font-bold text-xs text-Teal mb-4">
             {" "}
@@ -47,7 +47,15 @@ const Home = () => {
             </button>
           </div>
         </div>
-        {/* <div>
+        <div className="relative lg:mt-0 mt-4 h-64 overflow-hidden rounded-lg sm:h-80 lg:order-last lg:h-full">
+          <img
+            className="inset-0 h-full w-full object-cover"
+            src={hero}
+            alt=""
+          />
+        </div>
+      </div>
+      {/* <div>
           <div className="absolute z-10 -mt-56 ">
             <div className="relative mt-2 bg-white rounded-md shadow-sm">
               <div
@@ -84,7 +92,7 @@ const Home = () => {
             </div>
           </div>
         </div> */}
-        {/* <div>
+      {/* <div>
           <div className="absolute z-10 -mt-24 ml-[38%] ">
             <div className="relative mt-2 bg-white rounded-md shadow-sm">
               <div
@@ -121,13 +129,7 @@ const Home = () => {
             </div>
           </div>
         </div> */}
-        <div className="relative ml-36 h-64 overflow-hidden rounded-lg sm:h-80 lg:order-last lg:h-full">
-          <img 
-          className="inset-0 h-full w-full object-cover"
-          src={hero}
-          alt="" />
-        </div>
-      </div>
+
       <div>
         <p className="text-center text-xl">
           We collaborate with{" "}
