@@ -47,7 +47,7 @@ const Navbar = () => {
               onClick={() => setToggle(true)}
             />
             <div>
-              <img src={mocfLogo} className="h-12" alt="MOCF Logo" />
+              <img src={mocfLogo} className="h-24" alt="MOCF Logo" />
             </div>
           </div>
           <div className="sm:flex items-center hidden">
@@ -66,7 +66,7 @@ const Navbar = () => {
               initial={{ x: -500, opacity: 0 }}
               animate={{ x: 0, opacity: 1 }}
               transition={{ duration: 0.3 }}
-              className="fixed h-full w-96 top-0 left-0 z-20 bg-Teal text-white flex flex-col justify-center items-center shadow-lg gap-8 py-8"
+              className="fixed h-full w-96 top-0 left-0 z-20 bg-indigo-500 text-white flex flex-col justify-center items-center shadow-lg gap-8 py-8"
             >
               {navLinks.map((navLink) => {
                 return (

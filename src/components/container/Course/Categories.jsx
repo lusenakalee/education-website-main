@@ -7,7 +7,7 @@ const Categories = ({ icon, category }) => {
     visible: { y: 0, opacity: 1 },
   };
   return (
-    <motion.div
+    <div
       variants={item}
       whileHover={{ scale: 1.1 }}
       className="flex items-center flex-col gap-4 bg-white p-8 rounded-md"
@@ -17,7 +17,7 @@ const Categories = ({ icon, category }) => {
       <a href="" className="text-sm text-gray">
         View More
       </a>
-    </motion.div>
+    </div>
   );
 };
 

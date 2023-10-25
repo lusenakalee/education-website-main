@@ -26,20 +26,21 @@ const Home = () => {
     <div className="section space-y-16 pt-44" id="home">
       <div className="grid grid-cols-1 md:grid-cols-2  lg:grid-cols-2 items-center justify-center ">
         <div>
-          <div className="font-bold text-xs text-Teal mb-4">
+          <div className="font-bold text-xs text-indigo-500mb-4">
             {" "}
-            The Margaret Okari Children’s Foundation (MOCF)
+            Social and Economic Research Foundation (SERF)
           </div>
           <div className="sm:text-[2.5rem] text-[1.825rem] font-bold">
-            Empowering <br /> vulnerable children <br /> through education
+          Shaping Informed <br/>Policies for a<br/>Better Tomorrow
           </div>
           <p className="text-sm leading-7 text-gray max-w-sm">
-            The Foundation runs a school for children in Pre-K through year 8,
-            and supports qualified students as they pursue their Secondary and
-            University educations.
+          At SERF, we're dedicated to advancing knowledge in policy options and development management. 
+          For over seventeen years, we've been at the forefront of intensive policy and economic 
+          management research, capacity development, and knowledge management. Our commitment to 
+          empowering professionals and bridging knowledge gaps sets us apart.
           </p>
           <div className="mt-6">
-            <button className="px-6 py-3 font-bold text-white bg-Teal rounded-lg mr-4 text-sm">
+            <button className="px-6 py-3 font-bold text-white bg-indigo-500 rounded-lg mr-4 text-sm">
               Donate
             </button>
             <button className="px-6 py-3 font-bold border border-solid border-gray rounded-lg text-sm">
@@ -60,7 +61,7 @@ const Home = () => {
             <div className="relative mt-2 bg-white rounded-md shadow-sm">
               <div
                 type="text"
-                className="block w-full rounded-md border-solid  border-gray border-0 py-1.5 pl-7 pr-20 text-gray-900 ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-teal-600 sm:text-sm sm:leading-6"
+                className="block w-full rounded-md border-solid  border-gray border-0 py-1.5 pl-7 pr-20 text-gray-900 ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-500 sm:text-sm sm:leading-6"
                 placeholder="0.00"
               >
                 <p>Our happy Students</p>
@@ -83,7 +84,7 @@ const Home = () => {
                     src={teacher1}
                     alt=""
                   />
-                  <div className="h-10 w-10 flex-none rounded-full bg-teal-600  justify-center items-center">
+                  <div className="h-10 w-10 flex-none rounded-full bg-indigo-500  justify-center items-center">
                     {" "}
                     <p className="font-bold pt-2 text-white px-1"> 1.5k+</p>
                   </div>
@@ -97,7 +98,7 @@ const Home = () => {
             <div className="relative mt-2 bg-white rounded-md shadow-sm">
               <div
                 type="text"
-                className="block w-full rounded-md border-0 py-1.5 pl-7 pr-20 text-gray-900 ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-teal-600 sm:text-sm sm:leading-6"
+                className="block w-full rounded-md border-0 py-1.5 pl-7 pr-20 text-gray-900 ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-500 sm:text-sm sm:leading-6"
                 placeholder="0.00"
               >
                 <p className="flex-1">Our Dedicated Team</p>
@@ -120,7 +121,7 @@ const Home = () => {
                     src={teacher1}
                     alt=""
                   />
-                  <div className="h-10 w-10 flex-none rounded-full bg-teal-600 justify-center items-center">
+                  <div className="h-10 w-10 flex-none rounded-full bg-indigo-500 justify-center items-center">
                     {" "}
                     <p className="font-bold pt-2  text-white px-1"> 20+</p>
                   </div>
@@ -132,9 +133,9 @@ const Home = () => {
 
       <div>
         <p className="text-center text-xl">
-          We collaborate with{" "}
-          <span className="text-Teal">
-            100+ leading universities ans companies
+        Recognizing Excellence: {" "}
+          <span className="text-indigo">
+          SERF's Accolades
           </span>
         </p>
         <motion.div

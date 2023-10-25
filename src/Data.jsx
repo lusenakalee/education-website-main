@@ -10,9 +10,8 @@ import courses4 from "./assets/courses4.jpg";
 import courses5 from "./assets/courses5.jpg";
 import courses6 from "./assets/courses6.jpg";
 import courses7 from "./assets/courses7.jpg";
-import courses8 from "./assets/courses8.jpg";
+import tr from "./assets/tr.png";
 
-import logo1 from "./assets/vetted21.png";
 import logo2 from "./assets/vetted20.png";
 import logo3 from "./assets/effectiveOrg19.png";
 import logo4 from "./assets/staffFav19.png";
@@ -42,13 +41,13 @@ export const navLinks = [
   },
   {
     id: 5,
-    href: "contact",
-    link: "Events",
+    href: "projects",
+    link: "Projects",
   },
   {
     id: 5,
     href: "contact",
-    link: "+254 722 000 000",
+    link: "serfoundationafrica@gmail.com",
   },
 ];
 
@@ -78,8 +77,8 @@ export const categories = [
 export const courses = [
   {
     id: 1,
-    image: courses1,
-    category: "Donation",
+    image: "https://images.pexels.com/photos/256381/pexels-photo-256381.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    category: "Future Horizons",
     title: "Art and Creativity Workshop for Kids",
     rating: 4.9,
     participants: 500,
@@ -87,8 +86,8 @@ export const courses = [
   },
   {
     id: 2,
-    image: courses2,
-    category: "School event",
+    image: "https://images.pexels.com/photos/4646833/pexels-photo-4646833.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    category: "Africa Peace and Governance Consortium",
     title: "Outdoor Adventure Camp for Children",
     rating: 4.8,
     participants: 700,
@@ -96,8 +95,8 @@ export const courses = [
   },
   {
     id: 3,
-    image: courses3,
-    category: "Graduation",
+    image: "https://images.pexels.com/photos/5940708/pexels-photo-5940708.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    category: "The Journal of Professional and Academic Research (JPAR)",
     title: "Crafts and DIY Fun for Young Learners",
     rating: 4.9,
     participants: 300,
@@ -105,46 +104,32 @@ export const courses = [
   },
   {
     id: 4,
-    image: courses4,
-    category: "Donation",
+    image: tr,
+    category: "The Republic Magazine",
     title: "Artistic Expression with Creative Projects",
     rating: 4.7,
     participants: 600,
     price: 85,
   },
-  {
-    id: 5,
-    image: courses5,
-    category: "Sports day",
-    title: "Healthy and Active Playtime for Kids",
-    rating: 4.9,
-    participants: 500,
-    price: 105,
-  },
-  
 ];
 
-export const logos = [logo1, logo2, logo3, logo4, logo5, logo6];
+export const logos = [ logo2, logo3, logo4, logo5, logo6];
 
 export const accordions = [
   {
     id: 1,
-    title: "How does MOCF empower vulnerable children through education?",
-    answer: "MOCF empowers vulnerable children through education by running a school for children from Pre-K through year 8. Additionally, MOCF supports qualified students as they pursue their Secondary and University educations, helping them build a better future.",
+    title: "What are the key areas of SERF's research?",
+    answer: "SERF's research program focuses on a wide range of policy and development issues, including economic growth, poverty reduction, education, health, and social protection. We also conduct research on emerging issues such as climate change, urbanization, and technological change.    ",
   },
   {
     id: 2,
-    title: "Where is MOCF located, and what services does it provide in Kisii, Kenya?",
-    answer: "MOCF is located in Kisii, Kenya. It provides education, food, clothing, shelter, and advocacy services for at-risk children in the region.",
+    title: "How can I access SERF's research findings?",
+    answer: "SERF's research findings are available free of charge on our website. We also publish research reports, journals, and other publications on a regular basis. You can also subscribe to our newsletter to receive updates on our latest research and activities.    ",
   },
   {
     id: 3,
-    title: "How can i donate?",
-    answer: "Through mpesa and Paypal.We also accept donations by check made out to “Margaret Okari Children’s Foundation and mailed to:  5150 Fair Oaks Blvd. Suite 101, Box 342, Carmichael, CA 95608",
+    title: "How can I get involved in SERF's work?",
+    answer: "There are a number of ways to get involved in SERF's work. You can support our research by making a donation, attending our workshops and conferences, or sharing our research findings with your networks. You can also volunteer your time to help us with our research and outreach activities.",
   },
-  {
-    id: 4,
-    title: "What educational programs does MOCF offer for children?",
-    answer: "MOCF offers a range of educational programs, including a school for Pre-K through year 8 students and support for qualified students pursuing Secondary and University education.",
-  },
+  
 ];

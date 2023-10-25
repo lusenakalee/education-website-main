@@ -56,22 +56,18 @@ const Footer = () => {
           </div>
         </div>
         <div>
-          <div className="font-bold mb-6">Follow us</div>
-          <div className="text-sm mb-4">email@gmail.com</div>
+          <div className="font-bold mb-6">Contact us</div>
+          <div className="text-sm mb-4">serfoundationafrica@gmail.com</div>
           <div className="text-sm">+254.....</div>
           <div className="flex gap-4 mt-4">
-            <a href="" className="hover:scale-110 text-xl">
-              <BsFacebook />
-            </a>
+          
             <a href="" className="hover:scale-110 text-xl">
               <BsInstagram />
             </a>
-            <a href="" className="hover:scale-110 text-xl">
+            <a href="https://twitter.com/Serf_Foundation" className="hover:scale-110 text-xl">
               <BsTwitter />
             </a>
-            <a href="" className="hover:scale-110 text-xl">
-              <BsPinterest />
-            </a>
+            
           </div>
         </div>
       </div>

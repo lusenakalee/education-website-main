@@ -1,26 +1,18 @@
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Testimonial from "./components/container/Testimonial";
-import {
-  Navbar,
-  Home,
-  About,
-  Teacher,
-  Contact,
-  Courses,
-  Footer,
-} from "./components/index";
+import HomePage from "./pages/HomePage";
+import { Navbar } from "./components";
+import Projects from "./pages/Projects";
 
 function App() {
   return (
-    <div className="font-Poppins bg-slate-50">
-      <Navbar />
-      <Home />
-      <About />
-      <Courses />
-      <Teacher />
-      <Testimonial/>
-      <Contact />
-      <Footer />
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<HomePage />} />
+        <Route path="/projects" element={<Projects />} />
+      </Routes>
+    </BrowserRouter>
+   
   );
 }
 
