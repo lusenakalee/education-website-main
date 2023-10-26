@@ -22,7 +22,8 @@ const Teacher = () => {
           </Link>
         </div>
         <div className="p-4 rounded-lg md:w-3/4 sm:row-start-1">
-          <img src={teacher1} className=" rounded-lg" alt="" />
+          <img src="https://images.pexels.com/photos/3825569/pexels-photo-3825569.jpeg?auto=compress&cs=tinysrgb&w=800"
+          className=" rounded-lg" alt="" />
         </div>
         <div className="pl-5">
           <div className="font-bold sm:text-[1.875rem] text-[1.5rem] mb-5">
@@ -44,7 +45,8 @@ const Teacher = () => {
           </Link>
         </div>
         <div className="p-4 md:w-3/4">
-          <img src={teacher2} className=" rounded-lg" alt="" />
+          <img src="https://images.pexels.com/photos/3059654/pexels-photo-3059654.jpeg?auto=compress&cs=tinysrgb&w=800"
+          className=" rounded-lg" alt="" />
         </div>
       </div>
       <div className="text-center my-8 font-bold sm:text-[1.875rem] text-[1.5rem]">

@@ -126,8 +126,7 @@ const Navbar = () => {
           Give a little change alot.
         </h2>
         <p class="mt-4 text-sm text-gray-500">
-        Your donation to the Margaret Okari Children’s Foundation has an incredible impact on the lives of children in need. 100% of your donation goes to educating and taking care of vulnerable children in Kisii, Kenya. From everyone here at MOCF, we thank you for your generous contribution to our work! 
-        </p>
+        Your donation will help SERF to continue its important work of conducting research, building capacity, and disseminating knowledge on policy options and development management. By supporting SERF, you are helping to create a more informed and equitable world.        </p>
         <div class="mt-6 sm:text-right">
           <a
             href="#"
