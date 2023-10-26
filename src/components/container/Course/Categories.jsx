@@ -1,5 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
+import { Link } from "react-router-dom";
 
 const Categories = ({ icon, category }) => {
   const item = {
@@ -14,9 +15,9 @@ const Categories = ({ icon, category }) => {
     >
       <div className="text-4xl text-Teal">{icon}</div>
       <div>{category}</div>
-      <a href="" className="text-sm text-gray">
+      <Link to="" className="text-sm text-gray">
         View More
-      </a>
+      </Link>
     </div>
   );
 };

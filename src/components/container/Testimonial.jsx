@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 
 function Testimonial() {
   const [isExpanded, setIsExpanded] = useState(false);
@@ -26,13 +27,14 @@ function Testimonial() {
             ultimately shaping a brighter future. Join us in our mission to create a world 
             rooted in informed, effective policies
             </p>
-           
+           <Link smooth to="/publication/1">
             <p
               className="leading-relaxed text-lg hover:underline hover:cursor-pointer"
-              onClick={toggleParagraph}
+              
             >
               Learn more
             </p>
+            </Link>
             <span className="inline-block h-1 w-10 rounded bg-indigo-500 mt-8 mb-6"></span>
             <h2 className="text-gray-900 font-medium title-font tracking-wider text-sm">
               Prof Rachel Gesami.

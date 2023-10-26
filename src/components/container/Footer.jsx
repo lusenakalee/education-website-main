@@ -6,6 +6,7 @@ import {
   BsPinterest,
 } from "react-icons/bs";
 import { motion } from "framer-motion";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -19,15 +20,15 @@ const Footer = () => {
         <div>
           <div className="font-bold mb-6">SERF</div>
           <p className="text-sm leading-7">
-          We believe that educating our children has the power to shape their destinies
+          A leading think tank dedicated to advancing knowledge in policy options and development management. We conduct intensive research, build capacity, and disseminate knowledge to empower professionals and decision-makers. 
           </p>
         </div>
         <div>
           <div className="font-bold mb-6">Shortcuts</div>
           <div className="flex flex-col gap-4">
-            <a href="/about" className="text-sm hover:underline">
+            <Link to="/about" className="text-sm hover:underline">
              About
-            </a>
+            </Link>
           
             
           </div>
@@ -35,16 +36,16 @@ const Footer = () => {
         <div>
           <div className="font-bold mb-6">Company</div>
           <div className="flex flex-col gap-4">
-            <a href="mailto:serfoundationafrica@gmail.com" className="text-sm hover:underline">
+            <Link to="mailto:serfoundationafrica@gmail.com" className="text-sm hover:underline">
              Join Us
-            </a>
-            <a href="mailto:serfoundationafrica@gmail.com" className="text-sm hover:underline">
+            </Link>
+            <Link to="mailto:serfoundationafrica@gmail.com" className="text-sm hover:underline">
               Contact Us
-            </a>
+            </Link>
            
-            <a href="" className="text-sm hover:underline">
+            <Link to="" className="text-sm hover:underline">
               Terms & Conditions
-            </a>
+            </Link>
           </div>
         </div>
         <div>
@@ -53,12 +54,12 @@ const Footer = () => {
          
           <div className="flex gap-4 mt-4">
           
-            <a href="" className="hover:scale-110 text-xl">
+            <Link to="" className="hover:scale-110 text-xl">
               <BsInstagram />
-            </a>
-            <a href="https://twitter.com/Serf_Foundation" className="hover:scale-110 text-xl">
+            </Link>
+            <Link to="https://twitter.com/Serf_Foundation" className="hover:scale-110 text-xl">
               <BsTwitter />
-            </a>
+            </Link>
             
           </div>
         </div>
