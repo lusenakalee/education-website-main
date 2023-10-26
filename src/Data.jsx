@@ -21,33 +21,23 @@ import logo6 from "./assets/mocf_logo.png";
 export const navLinks = [
   {
     id: 1,
-    href: "home",
+    href: "/",
     link: "Home",
   },
   {
     id: 2,
-    href: "about",
+    href: "/about",
     link: "About",
   },
   {
-    id: 3,
-    href: "courses",
-    link: "Vision",
-  },
-  {
-    id: 4,
-    href: "teacher",
-    link: "Our Team",
-  },
-  {
     id: 5,
-    href: "projects",
+    href: "/projects",
     link: "Projects",
   },
   {
     id: 5,
-    href: "contact",
-    link: "serfoundationafrica@gmail.com",
+    href: "/publications",
+    link: "Articles",
   },
 ];
 

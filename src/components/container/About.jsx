@@ -6,7 +6,8 @@ const About = () => {
     <div className="section" id="about">
       <div className="grid md:grid-cols-2 gap-8 place-items-center">
         <div className="border-[3px] border-solid border-indigo-500rounded-lg">
-          <img src={about} alt="" className="p-4" />
+          <img src="https://images.pexels.com/photos/3100960/pexels-photo-3100960.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+          alt="" className="p-4" />
         </div>
         <div>
           <div className="font-bold sm:text-[1.875rem] text-[1.5rem] mb-5">

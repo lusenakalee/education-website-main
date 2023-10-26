@@ -51,7 +51,7 @@ const Home = () => {
         <div className="relative lg:mt-0 mt-4 h-64 overflow-hidden rounded-lg sm:h-80 lg:order-last lg:h-full">
           <img
             className="inset-0 h-full w-full object-cover"
-            src={hero}
+            src="https://images.pexels.com/photos/159775/library-la-trobe-study-students-159775.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
             alt=""
           />
         </div>

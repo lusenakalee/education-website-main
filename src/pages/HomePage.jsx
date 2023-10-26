@@ -7,6 +7,7 @@ import {
   Courses,
   Footer,
 } from "../components";
+import HomeProjects from "../components/HomeProjects";
 import Testimonial from "../components/container/Testimonial";
 
 function HomePage() {
@@ -17,6 +18,7 @@ function HomePage() {
       <Home />
       <About />
       <Courses />
+      <HomeProjects/>
       <Teacher />
       <Testimonial />
       <Contact />

@@ -27,13 +27,14 @@ const Courses = () => {
           Our <span className="text-Teal">Vision</span>
         </div>
         <p className="text-sm text-gray leading-7 max-w-[700px] mx-auto">
-        Our vision is to create a future where well-informed, effective policies drive positive change. 
-        We believe that by bridging knowledge gaps, we can empower societies and decision-makers to 
-        make the world a better place. 
-        Our mission is to empower professionals, communities, and leaders with the insights and skills 
-        needed to make informed decisions through comprehensive training programs and knowledge 
-        dissemination initiatives.
-         </p>
+          Our vision is to create a future where well-informed, effective
+          policies drive positive change. We believe that by bridging knowledge
+          gaps, we can empower societies and decision-makers to make the world a
+          better place. Our mission is to empower professionals, communities,
+          and leaders with the insights and skills needed to make informed
+          decisions through comprehensive training programs and knowledge
+          dissemination initiatives.
+        </p>
       </div>
       <div
         variants={container}
@@ -45,14 +46,7 @@ const Courses = () => {
           return <Categories key={category.id} {...category} />;
         })}
       </div>
-      <div className="text-xl font-bold mt-32">Most Recent Projects</div>
-      <div className="mt-12 overflow-x-hidden w-full  relative">
-        <div className="flex gap-8 md:w-full sm:w-[170%] xs:w-[340%] w-[480%] animate-slide">
-          {courses.map((course) => {
-            return <Course key={course.id} {...course} />;
-          })}
-        </div>
-      </div>
+      
     </div>
   );
 };
