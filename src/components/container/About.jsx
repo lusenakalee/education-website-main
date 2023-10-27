@@ -1,5 +1,6 @@
 import React from "react";
 import about from "../../assets/About.jpg";
+import { Link } from "react-router-dom";
 
 const About = () => {
   return (
@@ -16,9 +17,10 @@ const About = () => {
           </div>
           <p className="text-sm text-gray leading-7 mb-4">
           SERF, the Social and Economic Research Foundation, emerged as a leading institution driven by the pressing need for a deeper understanding of complex policy issues. We have honed our expertise, becoming a pioneering think tank delving into intricacies of policy options and development management challenges.          </p>
+         <Link smooth to='/about'>
           <button className="py-3 px-6 text-sm border border-solid border-gray rounded-lg font-bold">
             Know More
-          </button>
+          </button></Link>
         </div>
       </div>
     </div>

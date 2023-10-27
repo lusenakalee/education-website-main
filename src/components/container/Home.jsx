@@ -26,10 +26,7 @@ const Home = () => {
     <div className="section space-y-16 pt-44" id="home">
       <div className="grid grid-cols-1 md:grid-cols-2  lg:grid-cols-2 items-center justify-center ">
         <div>
-          <div className="font-bold text-xs text-indigo-500mb-4">
-            {" "}
-            Social and Economic Research Foundation (SERF)
-          </div>
+          
           <div className="sm:text-[2.5rem] text-[1.825rem] font-bold">
           Shaping Informed <br/>Policies for a<br/>Better Tomorrow
           </div>
@@ -56,80 +53,7 @@ const Home = () => {
           />
         </div>
       </div>
-      {/* <div>
-          <div className="absolute z-10 -mt-56 ">
-            <div className="relative mt-2 bg-white rounded-md shadow-sm">
-              <div
-                type="text"
-                className="block w-full rounded-md border-solid  border-gray border-0 py-1.5 pl-7 pr-20 text-gray-900 ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-500 sm:text-sm sm:leading-6"
-                placeholder="0.00"
-              >
-                <p>Our happy Students</p>
-                <p className="mt-1 truncate text-xs leading-5 text-gray-500">
-                  Over 1.5K graduated students
-                </p>
-                <div className="flex -space-x-5">
-                  <img
-                    className="h-10 w-10 flex-none rounded-full bg-gray-50"
-                    src={teacher1}
-                    alt=""
-                  />
-                  <img
-                    className="h-10 w-10 flex-none rounded-full bg-gray-50"
-                    src={teacher1}
-                    alt=""
-                  />
-                  <img
-                    className="h-10 w-10 flex-none rounded-full bg-gray-50"
-                    src={teacher1}
-                    alt=""
-                  />
-                  <div className="h-10 w-10 flex-none rounded-full bg-indigo-500  justify-center items-center">
-                    {" "}
-                    <p className="font-bold pt-2 text-white px-1"> 1.5k+</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div> */}
-      {/* <div>
-          <div className="absolute z-10 -mt-24 ml-[38%] ">
-            <div className="relative mt-2 bg-white rounded-md shadow-sm">
-              <div
-                type="text"
-                className="block w-full rounded-md border-0 py-1.5 pl-7 pr-20 text-gray-900 ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-500 sm:text-sm sm:leading-6"
-                placeholder="0.00"
-              >
-                <p className="flex-1">Our Dedicated Team</p>
-                <p className="mt-1 truncate text-xs leading-5 text-gray-500">
-                  Over 20 teachers
-                </p>
-                <div className="flex -space-x-5">
-                  <img
-                    className="h-10 w-10 flex-none rounded-full bg-gray-50"
-                    src={teacher1}
-                    alt=""
-                  />
-                  <img
-                    className="h-10 w-10 flex-none rounded-full bg-gray-50"
-                    src={teacher1}
-                    alt=""
-                  />
-                  <img
-                    className="h-10 w-10 flex-none rounded-full bg-gray-50"
-                    src={teacher1}
-                    alt=""
-                  />
-                  <div className="h-10 w-10 flex-none rounded-full bg-indigo-500 justify-center items-center">
-                    {" "}
-                    <p className="font-bold pt-2  text-white px-1"> 20+</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div> */}
+    
 
       <div>
         <p className="text-center text-xl">

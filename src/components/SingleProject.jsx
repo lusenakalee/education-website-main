@@ -26,7 +26,7 @@ const SingleProject = () => {
       <div className="pl-20 pt-10">
         <Breadcrumbs>
           <Link smooth to="/" className="opacity-60">
-            Home Page
+            Home Page<span>{" "}</span>
           </Link>
           <Link smooth to="/projects" className="opacity-60">
             projects

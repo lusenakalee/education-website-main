@@ -37,7 +37,7 @@ export const navLinks = [
   {
     id: 5,
     href: "/publications",
-    link: "Articles",
+    link: "Our Publications",
   },
 ];
 

@@ -59,9 +59,7 @@ export default function AboutPage() {
                 <h2 className="text-base font-semibold leading-7 text-indigo-600">
                   About SERF
                 </h2>
-                <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
-                  WHAT WE DO
-                </p>
+               
                 <p className="mt-6 text-lg leading-8 text-gray-600">
                   Established in 2006, the Social and Economic Research
                   Foundation (SERF) has emerged as a leading institution
@@ -117,6 +115,9 @@ export default function AboutPage() {
         </div>
       </div>
       <div className="mx-24 my-24">
+      <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
+                  WHAT WE DO
+                </p>
       <dl className="mt-10 max-w-xl space-y-8 text-base leading-7 text-gray-600 lg:max-w-none">
                   {features.map((feature) => (
                     <div key={feature.name} className="relative pl-9">

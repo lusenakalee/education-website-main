@@ -13,12 +13,11 @@ import Testimonial from "../components/container/Testimonial";
 function HomePage() {
   return (
     <div className="font-Poppins bg-slate-50">
-          <Navbar />
-
+      <Navbar />  
       <Home />
       <About />
       <Courses />
-      <HomeProjects/>
+      <HomeProjects />
       <Teacher />
       <Testimonial />
       <Contact />
