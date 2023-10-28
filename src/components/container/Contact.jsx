@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 const Contact = () => {
   return (
     <div className="section" id="contact">
-      <div className="text-center max-w-[600px] mx-auto">
+      {/* <div className="text-center max-w-[600px] mx-auto">
         <div className="sm:text-3xl text-2xl font-bold mb-5">
           Subscribe Newsletter
         </div>
@@ -25,7 +25,7 @@ const Contact = () => {
             Subscribe
           </button>
         </motion.form>
-      </div>
+      </div> */}
     </div>
   );
 };

@@ -53,7 +53,7 @@ const Navbar = () => {
               <div className="pt-4 font-bold text-xs text-indigo-500mb-4">
                 {" "}
                 Social and Economic <br />
-                Research Foundation (SERF)
+                Research Foundation 
               </div>
             </div>
           </div>

@@ -39,6 +39,11 @@ export const navLinks = [
     href: "/publications",
     link: "Our Publications",
   },
+  {
+    id: 6,
+    href: "/blog",
+    link: "Blog",
+  },
 ];
 
 export const categories = [

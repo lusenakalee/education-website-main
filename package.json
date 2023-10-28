@@ -1,5 +1,6 @@
 {
   "name": "react-education",
+  "homepage": "https://serfafrica.org",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -12,7 +13,9 @@
     "@heroicons/react": "^2.0.18",
     "@material-tailwind/react": "^2.1.4",
     "@tailwindcss/forms": "^0.5.6",
+    "@tremor/react": "^3.10.0",
     "framer-motion": "^8.5.2",
+    "next": "^14.0.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-icons": "^4.7.1",
