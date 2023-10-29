@@ -1,6 +1,6 @@
 import FutureHorizons from "./storage/FutureHorizons";
-import Apgc from "./storage/apgc";
-import Jpar from "./storage/jpar";
+import Jpar from "./storage/Jpar";
+import TheRepublic from "./storage/TheRepublic";
 
 export const projectsData = [
   {  
@@ -12,7 +12,7 @@ export const projectsData = [
     coAuthorName:"",
     coAuthorTitle:"",
     coAuthorImg: "",
-    date: "08 AUGUST 2023",
+    date: "",
     title: "Future Horizons: Shaping Tomorrow through Inclusive Research",
     details: `"Future Horizons" is a pioneering research initiative set to commence in January 2024, dedicated to exploring emerging challenges and opportunities that will define our collective future. This program, initiated by the Social and Economic Research Foundation (SERF), will focus on multidisciplinary research encompassing technology, climate, socio-economic trends, healthcare, and education. The initiative aims to provide actionable insights and innovative solutions to navigate the complexities of the evolving world landscape.`,
     storyParagraph1: <FutureHorizons/>,
@@ -32,10 +32,10 @@ export const projectsData = [
     coAuthorName:"",
     coAuthorTitle:"",
     coAuthorImg: "",
-    date: "08 AUGUST 2023",
+    date: "",
     title: "Africa Peace and Governance Consortium",
     details:   `Within the framework of the Social and Economic Research Foundation (SERF), the Africa Peace and Governance Consortium (APGC) emerges as a transformative initiative. Anchored in SERF’s core values of research excellence, APGC is dedicated to promoting peace and championing good governance across Africa, with a particular focus on Kenya and the wider East African region. `,
-    storyParagraph1: <Apgc/>,
+    storyParagraph1: "",
     storyParagraph2: "This is p2",
     storyParagraph3: "This is P3",
     refesences: "",
@@ -56,6 +56,26 @@ export const projectsData = [
     title: "The Journal of Professional and Academic Research (JPAR)",
     details:  `The Journal of Professional and Academic Research (JPAR) stands as a prestigious peer-reviewed academic journal, established under the aegis of the Social and Economic Research Foundation (SERF). Our primary objective at JPAR is to elevate the domains of science, knowledge, and practice by fostering the creation and dissemination of top-tier academic research articles and papers. We serve as a vital platform encouraging the development of high-quality scholarly content.`,
     storyParagraph1: <Jpar/>,
+    storyParagraph2: "This is p2",
+    storyParagraph3: "This is P3",
+    refesences: "",
+    storyParagraph4: "This is P3",
+    storyParagraph5: "This is P3",
+    storyParagraph6: "This is P3",
+  },
+   {  
+    id: '4',
+    eventImg: "https://images.pexels.com/photos/5940708/pexels-photo-5940708.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    authorImg: "https://images.pexels.com/photos/256381/pexels-photo-256381.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    authorName: "Dillon Chemhere",
+    authorTitle: "Associate",
+    coAuthorName:"",
+    coAuthorTitle:"",
+    coAuthorImg: "",
+    date: "",
+    title: "The Republic Magazine",
+    details:  `The Republic Magazine stands as a quintessential regional publication dedicated to East Africa, meticulously delving into three pivotal African issues: politics, climate, and finance. Serving as your gateway to Africa, our magazine excels in contextualizing these subjects, shedding light on pressing matters, and offering impartial coverage on breaking news.`,
+    storyParagraph1: <TheRepublic/>,
     storyParagraph2: "This is p2",
     storyParagraph3: "This is P3",
     refesences: "",

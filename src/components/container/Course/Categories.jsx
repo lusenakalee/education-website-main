@@ -16,7 +16,7 @@ const Categories = ({ icon, category }) => {
       <div className="text-4xl text-Teal">{icon}</div>
       <div>{category}</div>
       <Link to="" className="text-sm text-gray">
-        View More
+       
       </Link>
     </div>
   );
