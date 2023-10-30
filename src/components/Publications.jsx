@@ -35,11 +35,11 @@ export const Articles = ({ publicationsData }) => {
             <article className="relative overflow-hidden rounded-lg shadow transition hover:shadow-lg">
               <img
                 alt="Office"
-                src="https://images.unsplash.com/photo-1661956602116-aa6865609028?ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=764&q=80"
+                src={projo.eventImg}
                 className="absolute inset-0 h-full w-full object-cover"
               />
 
-              <div className="relative bg-gradient-to-t from-gray-900/50 to-gray-900/25 pt-32 sm:pt-48 lg:pt-64">
+              <div className="relative bg-gradient-to-t from-blue-800 via-blue-300/50 to-transparent pt-32 sm:pt-48 lg:pt-64">
                 <div className="p-4 sm:p-6">
                   <time
                     datetime="2022-10-10"
@@ -49,7 +49,7 @@ export const Articles = ({ publicationsData }) => {
                   </time>
 
                   <Link to={`/publication/${projo.id}`}>
-                    <h3 className="mt-0.5 text-lg text-white">{projo.title}</h3>
+                    <h3 className="mt-0.5 hover:underline text-lg text-white">{projo.title}</h3>
                   </Link>
 
                   <p className="mt-2 line-clamp-3 text-sm/relaxed text-white/95">

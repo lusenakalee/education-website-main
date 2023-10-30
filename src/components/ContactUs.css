@@ -1,0 +1,8 @@
+/* styles.css */
+
+  
+  .bg-image {
+    background-image: url('../assets/contactuspicture.png'); /* Path to your image */
+   
+   /* Adjust the opacity value for the image */
+  }
