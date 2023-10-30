@@ -7,6 +7,7 @@ import ProjectsContext from "../context/ProjectsContext";
 import { useParams } from "react-router-dom";
 import { Link } from "react-router-dom";
 import Footer from "./container/Footer";
+import './SingleProject.css'
 
 const SingleProject = () => {
   const { projectsData } = useContext(ProjectsContext);
@@ -23,7 +24,10 @@ const SingleProject = () => {
         <Navbar />
       </header>
 
-      <div className="pl-20 pt-10">
+      <div className="pl-20 pt-10"
+      
+      
+      >
         <Breadcrumbs>
           <Link smooth to="/" className="opacity-60">
             Home Page<span>{" "}</span>
@@ -35,7 +39,7 @@ const SingleProject = () => {
         </Breadcrumbs>
       </div>
 
-      <main className="pt-8 pb-16 lg:pt-16  mx-auto px-4 lg:px-8 justify-items-center lg:pb-24 bg-white dark:bg-gray-900">
+      <main className="pt-8 pb-16 lg:pt-16 bg-overlay mx-auto px-4 lg:px-8 justify-items-center lg:pb-24 bg-white dark:bg-gray-900">
         <div className="flex justify-between  px-auto mx-auto px-4 lg:px-8 ">
           <article
             key={project.id}

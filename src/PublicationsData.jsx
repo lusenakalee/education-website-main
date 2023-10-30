@@ -24,7 +24,7 @@ export const publicationsData = [
       coAuthorImg: "",
       date: "",
       title: "Research Methods: Examining Research Techniques",
-      details:  `We take immense pride in announcing our latest publication, "Research Methods: Examining Research Techniques," authored by the eminent Mrs. Prof. Rachel Gesami, who serves as both the President and Founder of the Social and Economic Research Foundation (SERF). This significant contribution to the academic sphere reflects Mrs. Prof. Gesami’s extensive knowledge, expertise, and dedication to advancing research methodologies. `,
+      details:  `In this comprehensive volume, she meticulously explores various research techniques, providing invaluable insights essential for researchers at all levels of expertise. `,
       storyParagraph1: <ResearchMethods/>,
       storyParagraph2: "This is p2",
       storyParagraph3: "This is P3",

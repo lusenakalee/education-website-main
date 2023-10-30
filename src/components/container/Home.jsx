@@ -2,7 +2,8 @@ import React from "react";
 import hero from "../../assets/hero.png";
 import { logos } from "../../Data";
 import { motion } from "framer-motion";
-import teacher1 from "../../assets/teacher1.png";
+
+
 const Home = () => {
   const container = {
     hidden: {

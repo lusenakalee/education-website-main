@@ -32,7 +32,7 @@ const Navbar = () => {
   return (
     <div
       className={`${
-        active ? "shadow-lg bg-cyan-300" : ""
+        active ? "shadow-lg bg-blue-300" : ""
       } fixed w-full top-0 left-0 z-20`}
     >
       <div>
@@ -73,7 +73,7 @@ const Navbar = () => {
               initial={{ x: -500, opacity: 0 }}
               animate={{ x: 0, opacity: 1 }}
               transition={{ duration: 0.3 }}
-              className="fixed h-full w-96 top-0 left-0 z-20 bg-indigo-500 text-white flex flex-col justify-center items-center shadow-lg gap-8 py-8"
+              className="fixed h-full w-96 top-0 left-0 z-20 bg-blue-800 text-white flex flex-col justify-center items-center shadow-lg gap-8 py-8"
             >
               {navLinks.map((navLink) => {
                 return (

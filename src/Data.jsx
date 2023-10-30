@@ -3,20 +3,13 @@ import { FaLaptopCode } from "react-icons/fa";
 import { BsBarChartLine } from "react-icons/bs";
 import { MdOutlineScience } from "react-icons/md";
 
-import courses1 from "./assets/courses1.jpg";
-import courses2 from "./assets/courses2.jpg";
-import courses3 from "./assets/courses3.jpg";
-import courses4 from "./assets/courses4.jpg";
-import courses5 from "./assets/courses5.jpg";
-import courses6 from "./assets/courses6.jpg";
-import courses7 from "./assets/courses7.jpg";
+
 import tr from "./assets/tr.png";
 
 import logo2 from "./assets/vetted20.png";
 import logo3 from "./assets/effectiveOrg19.png";
 import logo4 from "./assets/staffFav19.png";
 import logo5 from "./assets/ranked19.png";
-import logo6 from "./assets/mocf_logo.png";
 
 export const navLinks = [
   {
@@ -108,7 +101,7 @@ export const courses = [
   },
 ];
 
-export const logos = [ logo2, logo3, logo4, logo5, logo6];
+export const logos = [ logo2, logo3, logo4, logo5 ];
 
 export const accordions = [
   {

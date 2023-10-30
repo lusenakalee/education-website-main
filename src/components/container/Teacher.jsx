@@ -1,6 +1,5 @@
 import React from "react";
-import teacher1 from "../../assets/teacher1.png";
-import teacher2 from "../../assets/teacher2.png";
+
 import { accordions } from "../../Data";
 import Accordion from "./Accordion";
 import { Link } from "react-router-dom";

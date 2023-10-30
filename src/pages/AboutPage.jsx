@@ -7,6 +7,7 @@ import {
 } from "@heroicons/react/24/outline";
 import { Footer, Navbar } from "../components";
 import { Link } from "react-router-dom";
+import about from '../assets/AboutUsPic.jpg'
 import { WhatWeDoTabs } from "../components/container/WhatWeDoTabs";
 
 const features = [
@@ -98,11 +99,11 @@ export default function AboutPage() {
               </div>
             </div>
             <img
-              src="https://images.pexels.com/photos/2946979/pexels-photo-2946979.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
-              alt="Product screenshot"
+  src={about}              
+  alt="Product screenshot"
               className="w-[48rem] max-w-none rounded-xl shadow-xl ring-1 ring-gray-400/10 sm:w-[57rem] md:-ml-4 lg:-ml-0"
-              width={2432}
-              height={1442}
+              width={600}
+              height={800}
             />
           </div>
         </div>
@@ -111,48 +112,20 @@ export default function AboutPage() {
        
         <dl className="mt-10 max-w-xl space-y-8 text-base leading-7 text-gray-600 lg:max-w-none">
           <section>
-            <div className="mx-auto max-w-screen-xl px-4 py-8 sm:py-12 sm:px-6 lg:py-16 lg:px-8">
-              <div className="grid grid-cols-1 gap-8 lg:grid-cols-2 lg:gap-16">
-                <div className="relative h-64 overflow-hidden rounded-lg sm:h-80 lg:order-last lg:h-full">
-                  <img
-                    alt="Party"
-                    src="https://images.unsplash.com/photo-1527529482837-4698179dc6ce?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80"
-                    className="absolute inset-0 h-full w-full object-cover"
-                  />
-                </div>
-
-                <div className="lg:py-24">
-                  <h2 className="text-3xl font-bold sm:text-4xl">What we do</h2>
-
-                  <p className="mt-4 text-gray-600">
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                    Aut qui hic atque tenetur quis eius quos ea neque sunt,
-                    accusantium soluta minus veniam tempora deserunt? Molestiae
-                    eius quidem quam repellat.
-                  </p>
-
-                  <Link
-                    to="mailto:serfoundationafrica@gmail.com"
-                    className="mt-8 inline-block rounded bg-indigo-600 px-12 py-3 text-sm font-medium text-white transition hover:bg-indigo-700 focus:outline-none focus:ring focus:ring-yellow-400"
-                  >
-                    Work with us
-                  </Link>
-                </div>
-              </div>
-            </div>
+             <WhatWeDoTabs/>
           </section>
-          <WhatWeDoTabs/>
+        
 
           {features.map((feature) => (
             <div key={feature.name} className="relative pl-9">
-              {/* <dt className="inline font-semibold text-gray-900">
+               {/* <dt className="inline font-semibold text-gray-900">
                 <feature.icon
                   className="absolute left-1 top-1 h-5 w-5 text-indigo-600"
                   aria-hidden="true"
                 />
                 {feature.name}
               </dt>{" "}
-              <dd className="inline">{feature.description}</dd> */}
+              <dd className="inline">{feature.description}</dd>  */}
             </div>
           ))}
         </dl>

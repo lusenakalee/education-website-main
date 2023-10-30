@@ -33,7 +33,7 @@ export const Articles = ({ projectsData }) => {
           <div key={projo.id} className="p-6">
 
             <img
-              className="object-cover object-center w-full mb-8 lg:h-48 md:h-36 rounded-xl"
+              className="object-cover object-center w-full mb-8  md:h-36 rounded-xl"
               src={projo.eventImg}
               alt="blog"
             />
@@ -43,7 +43,7 @@ export const Articles = ({ projectsData }) => {
             <h1 className="mx-auto mb-8 text-2xl font-semibold leading-none tracking-tighter text-neutral-600 lg:text-3xl">
               {projo.title}
             </h1>
-            <p className="mx-auto text-base font-medium leading-relaxed text-gray-500">
+            <p className="mx-auto line-clamp-3  text-base font-medium leading-relaxed text-gray-500">
               {projo.details}
             </p>
             <div className="mt-4">

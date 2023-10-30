@@ -1,10 +1,10 @@
 import React from "react";
 
-import "./Apgc.css";
+import "./Acs.css";
 
 export default function Acs() {
   return (
-    <div>
+    <div className="bg-image">
 
       <article className="pb-24">
         <section className="storybook-page ">
