@@ -1,8 +1,4 @@
 import React from "react";
-import { categories } from "../../../Data";
-import { courses } from "../../../Data";
-import Categories from "./Categories";
-import Course from "./Course";
 import { motion } from "framer-motion";
 
 const Courses = () => {
@@ -36,17 +32,6 @@ const Courses = () => {
           dissemination initiatives.
         </p>
       </div>
-      <div
-        variants={container}
-        initial="hidden"
-        whileInView="visible"
-        className="grid md:grid-cols-4 sm:grid-cols-2 mt-12 gap-8"
-      >
-        {categories.map((category) => {
-          return <Categories key={category.id} {...category} />;
-        })}
-      </div>
-      
     </div>
   );
 };

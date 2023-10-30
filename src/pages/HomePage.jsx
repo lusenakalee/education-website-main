@@ -18,7 +18,6 @@ function HomePage() {
       <Home />
       <About />
       <Courses />
-      <HomeProjects />
       <Teacher />
       <Testimonial />
      

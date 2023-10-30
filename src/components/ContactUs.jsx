@@ -1,5 +1,4 @@
 import React from "react";
-import cpic from "../assets/contactuspicture.png"
 import { Link } from "react-router-dom";
 
 function ContactUs() {

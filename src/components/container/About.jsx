@@ -1,5 +1,5 @@
 import React from "react";
-import about from "../../assets/AboutUsPic.jpg";
+import policies from "../../assets/policies.jpeg";
 import { Link } from "react-router-dom";
 
 const About = () => {
@@ -8,7 +8,7 @@ const About = () => {
       <div className="grid md:grid-cols-2 gap-8 place-items-center">
         <div className="border-[3px] border-solid border-indigo-500rounded-lg">
           <img
-            src="https://images.pexels.com/photos/3100960/pexels-photo-3100960.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+          src={policies}
             alt=""
             className="p-4"
           />
