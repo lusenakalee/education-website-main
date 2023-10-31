@@ -41,6 +41,11 @@ const SinglePost = () => {
             key={post.id}
             className=" px-auto prose-lg mx-auto px-4 lg:px-8  format-blue dark:format-invert"
           >
+              <img
+              alt="Lava"
+              src={post.eventImg}
+              class="h-56 w-full rounded-xl object-cover shadow-xl transition group-hover:grayscale-[50%]"
+            />
            
             <p className="text-lg  pb-4">{post.storyParagraph1}</p>
 

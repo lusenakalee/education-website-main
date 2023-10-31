@@ -17,7 +17,7 @@
   }
 
   .section {
-    @apply container mx-auto py-4 px-6 
+    @apply container mx-auto py-8 px-6 
   }
   .animate-slide:hover {
     animation-play-state: paused;

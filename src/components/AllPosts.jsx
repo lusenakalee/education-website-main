@@ -27,7 +27,7 @@ export default AllPosts;
 
 export const Articles = ({ blogData }) => {
   return (
-    <div id="articles" className="relative items-center  px-5 py-12 mx-auto md:px-12 lg:px-24 max-w-7xl">
+    <div id="articles" className="relative items-center  px-5 pb-12 mx-auto md:px-12 lg:px-24 max-w-7xl">
       <div className="grid w-full grid-cols-1 gap-6 mx-auto lg:grid-cols-1 ">
         {blogData.map((projo) => (
           <div key={projo.id} className="p-6">

@@ -25,6 +25,7 @@
     "react-router-dom": "^6.17.0",
     "react-router-hash-link": "^2.4.3",
     "react-scroll": "^1.8.9",
+    "react-spinners": "^0.13.8",
     "swiper": "^11.0.2"
   },
   "devDependencies": {

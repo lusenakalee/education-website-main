@@ -12,12 +12,9 @@ const Projects = () => {
 
   return (
     <>
-     
-
       <main>
         <Articles projectsData={projectsData} />
       </main>
-
       <Footer />
     </>
   );
@@ -28,33 +25,46 @@ export default Projects;
 export const Articles = ({ projectsData }) => {
   return (
     <div id="articles" className="relative items-center  px-5 py-12 mx-auto md:px-12 lg:px-24 max-w-7xl">
-      <div className="grid w-full grid-cols-1 gap-6 mx-auto lg:grid-cols-3 ">
+      <div className="grid w-full grid-cols-1 gap-6 mx-auto lg:grid-cols-2 ">
         {projectsData.map((projo) => (
           <div key={projo.id} className="p-6">
 
-            <img
-              className="object-cover object-center w-full mb-8  md:h-36 rounded-xl"
-              src={projo.eventImg}
-              alt="blog"
-            />
-            <h2 className="mb-8 text-xs font-semibold tracking-widest text-blue-600 uppercase">
-              {projo.date}
-            </h2>
-            <h1 className="mx-auto mb-8 text-2xl font-semibold leading-none tracking-tighter text-neutral-600 lg:text-3xl">
-              {projo.title}
-            </h1>
-            <p className="mx-auto line-clamp-3  text-base font-medium leading-relaxed text-gray-500">
-              {projo.details}
-            </p>
-            <div className="mt-4">
-              <Link
-                to={`/project/${projo.id}`}
-                className="inline-flex items-center mt-4 font-semibold text-blue-600 lg:mb-0 hover:text-neutral-600"
-                title="read more"
-              >
-                Read More »
-              </Link>
-            </div>
+<article
+  class="overflow-hidden rounded-lg border border-gray-100 bg-white shadow-sm"
+>
+  <img
+    alt="Office"
+    src={projo.eventImg}
+    class="h-56 w-full object-cover"
+  />
+
+  <div class="p-4 sm:p-6">
+    <a href="#">
+      <h3 class="text-lg font-medium text-gray-900">
+        {projo.title}
+      </h3>
+    </a>
+
+    <p class="mt-2 line-clamp-3 text-sm/relaxed text-gray-500">
+     {projo.details}
+    </p>
+
+    <Link to={`/project/${projo.id}`}
+      class="group mt-4 inline-flex items-center gap-1 text-sm font-medium text-blue-600"
+    >
+      Find out more
+
+      <span
+        aria-hidden="true"
+        class="block transition-all group-hover:ms-0.5 rtl:rotate-180"
+      >
+        &rarr;
+      </span>
+    </Link>
+  </div>
+</article>
+
+
           </div>
         ))}
       </div>

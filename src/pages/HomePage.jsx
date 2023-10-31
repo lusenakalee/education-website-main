@@ -10,6 +10,7 @@ import {
 import ContactUs from "../components/ContactUs";
 import HomeProjects from "../components/HomeProjects";
 import Testimonial from "../components/container/Testimonial";
+import WhatWeDoTabs from "../components/container/WhatWeDoTabs";
 
 function HomePage() {
   return (
@@ -19,6 +20,7 @@ function HomePage() {
       <About />
       <Courses />
       <Teacher />
+      <WhatWeDoTabs/>
       <Testimonial />
      
       <ContactUs/>
