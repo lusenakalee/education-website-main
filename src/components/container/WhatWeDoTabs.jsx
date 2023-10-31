@@ -7,6 +7,8 @@ import { sliderSettings } from "../../utils/common";
 import { PuffLoader } from 'react-spinners'
 import governancePic from "../../assets/governancePic.png"
 import knowledgePic from "../../assets/knowledgePic.png"
+import strategicPic from "../../assets/strategicPic.png"
+import custompic from "../../assets/custompic.png"
 
 
 
@@ -28,7 +30,7 @@ const WhatWeDoTabs = () => {
               <a href="#" className="block">
                 <img
                   alt="Signage"
-                  src="https://images.unsplash.com/photo-1588515724527-074a7a56616c?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1500&q=80"
+                  src={strategicPic}
                   className="h-56 w-full rounded-bl-3xl rounded-tr-3xl object-cover sm:h-64 lg:h-72"
                 />
 
@@ -47,7 +49,7 @@ const WhatWeDoTabs = () => {
               <a href="#" className="block">
                 <img
                   alt="Signage"
-                  src="https://images.unsplash.com/photo-1588515724527-074a7a56616c?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1500&q=80"
+                  src={custompic}
                   className="h-56 w-full rounded-bl-3xl rounded-tr-3xl object-cover sm:h-64 lg:h-72"
                 />
 
